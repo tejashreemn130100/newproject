@@ -1,0 +1,39 @@
+body {
+    background-color: #f0f0f0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    margin-top: 100px;
+}
+
+.login-container input {
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+
+.birthday-container, .gallery, .letter {
+    margin-top: 50px;
+}
+
+.birthday-container img, .gallery img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #FF69B4;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #FF1493;
+}
