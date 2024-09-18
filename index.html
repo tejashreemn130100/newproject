@@ -1,21 +1,46 @@
-</html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
-    <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
-    <script src="login.js" defer></script> <!-- Link to your JavaScript file -->
+    <title>Happy Birthday Nithya</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        .birthday-container {
+            margin-top: 50px;
+        }
+        .birthday-container img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        .btn {
+            padding: 10px 20px;
+            margin-top: 20px;
+            background-color: #FF69B4;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #FF1493;
+        }
+    </style>
 </head>
 <body>
-    <form id="loginForm">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-        <button type="submit">Login</button>
-        <p id="error-message"></p>
-    </form>
+    <div class="birthday-container">
+        <h1>Happy Birthday Nithya!</h1>
+        <img src="nithya_picture.jpg" alt="Nithya Picture">
+        <audio autoplay>
+            <source src="birthday_song.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <p>Wishing you all the happiness in the world!</p>
+        <button class="btn" onclick="window.location.href='gallery.html'">Click Me</button>
+    </div>
 </body>
 </html>
