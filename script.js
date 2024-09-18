@@ -14,3 +14,4 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
         document.getElementById("error-message").textContent = "Invalid login details!";
     }
 });
+
