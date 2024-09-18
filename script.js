@@ -5,7 +5,7 @@ document.getElementById("loginForm").addEventListener("submit", function(event) 
     const password = document.getElementById("password").value;
 
     // Check if the username and password are correct
-    if (username === "TEJASHREE" && password === "NITHYA") {
+    if (username === "TEJASHREE" && password === "SIDDU") {
         window.location.href = 'birthday.html'; // Redirect to the birthday wishes page
     } else {
         document.getElementById("error-message").textContent = "Invalid login details! Please try again.";
